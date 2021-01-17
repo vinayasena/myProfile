@@ -1,11 +1,12 @@
 import { Container, Grid } from "@material-ui/core";
 import React from "react";
 import "./App.css";
-import Profile from './pages/Profile';
 
+import Profile from './pages/Profile';
+import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 function App() {
   return (
-    <Container>
+    <Container style={{marginTop:'60px'}}>
       <Grid container>
         <Grid
           item
@@ -13,7 +14,7 @@ function App() {
           sm={12}
           md={4}
           lg={3}
-          style={{ backgroundColor: "red" }}
+         
         >
          <Profile/>
         </Grid>
