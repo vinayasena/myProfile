@@ -2,26 +2,29 @@ import { Container, Grid } from "@material-ui/core";
 import React from "react";
 import "./App.css";
 
-import Profile from './pages/Profile';
-import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Profile from "./components/Profile/Profile";
+import Header from "./components/Header/Header";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Portfolio from "./components/Portfolio/Portfolio";
+import Resume from "./components/Resume/Resume";
+import About from './components/About/About';
+import data from './data';
+
 function App() {
   return (
-    <Container style={{marginTop:'60px'}}>
-      <Grid container>
-        <Grid
-          item
-          xs={12}
-          sm={12}
-          md={4}
-          lg={3}
-         
-        >
-         <Profile/>
+    <Container className="top_60">
+      <Grid container spacing={5}>
+        <Grid item xs={12} sm={12} md={4} lg={3}>
+          <Profile data={data}/>
+          
         </Grid>
-        <Grid item xs style={{ backgroundColor: "#ccc" }}>
-         {/* header */}
-         {/* portfolie */}
-         {/* footer */}
+        <Grid item xs>
+          {/* <Header /> */}
+          <div className="page_container">
+            <About data={data}/>
+            <Resume />
+            <Portfolio />
+          </div>
         </Grid>
       </Grid>
     </Container>
