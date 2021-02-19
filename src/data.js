@@ -1,5 +1,5 @@
 
-export default {
+const data = {
 
     userInfo:[
         {name:'Name', value:'Vinay sena reddy k'},
@@ -108,3 +108,4 @@ export default {
     ]
 
 }
+export default data
