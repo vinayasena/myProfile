@@ -1,3 +1,11 @@
+:root {
+  --main-color: #7209b7;
+  --secondary-color:#f72585;
+  --primary-font-color:#fff;
+  --image-bg-color:#d0d1ff;
+  --menu-hover-color:#f72585;
+  --font-color-secondary:#777;
+}
 *{
   margin:0;
   padding:0;
@@ -11,7 +19,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: aliceblue;
+  /* background: url('./assets/images/Simple-Purple-Checked-Background-Image.jpg');  */
+  height:100vh;
+  width:100vw;
+  background-color:  #F0F2F5;
+  background-repeat:no-repeat;
+  background-size:cover
+}
+
+@media (min-width: 1280px){
+
+.MuiContainer-maxWidthLg {
+    max-width: 1440px !important;
+}
 }
 
 code {

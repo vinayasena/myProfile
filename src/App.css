@@ -1,22 +1,6 @@
-:root {
-  --main-color: #7209b7;
-  --secondary-color:#f72585;
-  --primary-font-color:#fff;
-  --image-bg-color:#d0d1ff;
-  --menu-hover-color:#f72585;
-  --font-color-secondary:#777;
-}
-*{
-  margin:0;
-  padding:0;
-}
-body{
- background: url('./assets/images/Simple-Purple-Checked-Background-Image.jpg'); 
- height:100%;
- background-repeat:no-repeat;
- background-size:cover
- 
-}
+
+
+
 .top_60{
   margin-top:60px;
 }

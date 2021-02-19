@@ -1,0 +1,80 @@
+.timeline{
+    padding:0 !important;
+}
+.timeline .timeline_header{
+    padding-top:7px;
+}
+.timeline .timeline_firstitem{
+    min-height:80px !important;
+}
+
+/* .timeline .MuiTimelineContent-root{
+     min-height:40px !important;
+    height:40px; 
+}*/
+.timeline .MuiTimelineContent-root { 
+    padding: 2px 14px !important;
+    margin-bottom: 10px;
+}
+.timeline .MuiTimelineItem-missingOppositeContent:before{
+    display:none ;
+    background-color: #eee !important;
+    
+}
+.timeline .timeline_dot_header{
+   
+    background-color: var(--main-color);
+    font-size:small;
+    padding:10px;
+   
+}
+.timeline .timeline_dot_header > .MuiSvgIcon-root{
+    font-size:20px;
+    color:var(--primary-font-color);
+}
+/* items*/
+.timeline .timeline_dot{
+    color:black;
+    border-color: var(--main-color);
+    padding:2px;
+}
+.timeline .separator_padding{
+    padding-left:17px
+}
+.profile_information{
+   top:0;
+   left:0;
+   margin:-35px 10px 30px;
+}
+
+.timeline .MuiTimelineItem-root{
+    min-height:30px;
+}
+.timeline .data_name{
+    font-size: 16px;
+    font-weight:bold;
+}
+.timeline .data_value{
+    margin-left:2px;
+    font-size:14px;
+}
+
+/* Job*/
+.job_heading{
+    font-weight:bold !important;
+}
+.job_date{
+    font-size:12px !important;
+    padding:3px 0px;
+    color:var(--font-color-secondary);
+}
+.job_description{
+    font-size:14px;
+    color:var(--font-color-secondary) 
+}
+.timeline li:last-child .MuiTimelineConnector-root{
+    display:none
+}
+.timeline li:first-child .MuiTimelineConnector-root{
+    
+}
