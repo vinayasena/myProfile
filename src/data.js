@@ -90,6 +90,14 @@ const data = {
 
         },
         {
+            name:'Markdown Previewer',
+            category:'ReactJS',
+            description:'A React app to preview markdown text.',
+            image:'/projectImages/markdown.png',
+            link:'https://mdviewer.netlify.app/'
+
+        },
+        {
             name:'Heroku Like Clone',
             category:'HTML5 SCSS GRID FLEXBOX',
             description:'Inspired from heroku design.',
