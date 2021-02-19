@@ -1,7 +1,7 @@
 import React from "react";
 import "./portfolio.css";
-import { Container, Grid, Paper } from "@material-ui/core";
-import { SectionTitle } from "../About/About";
+import {  Grid} from "@material-ui/core";
+//import { SectionTitle } from "../About/About";
 
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
@@ -58,7 +58,7 @@ function Portfolio(projects) {
               </CardActionArea>
               <CardActions>
                 <Button size="small" color="primary">
-                  <a href={link} target="_blank"> Demo</a>
+                  <a href={link} target="_blank" rel="noreferrer"> Demo</a>
                 </Button>
                 <Button size="small" color="primary">
                   {category}

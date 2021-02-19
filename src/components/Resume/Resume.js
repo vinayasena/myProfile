@@ -1,7 +1,7 @@
 import React from "react";
 
-import { Timeline } from "@material-ui/lab/Timeline";
-import CustomTimeline from "../Timeline/CustomTimeline";
+//import { Timeline } from "@material-ui/lab/Timeline";
+//import CustomTimeline from "../Timeline/CustomTimeline";
 import { Grid, Container } from "@material-ui/core";
 function Resume() {
   return (

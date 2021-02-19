@@ -1,4 +1,4 @@
-import { Container, Grid, Paper } from '@material-ui/core';
+import { Grid, Paper } from '@material-ui/core';
 import React from 'react'
 import CustomTimeline from '../Timeline/CustomTimeline';
 import WorkIcon from '@material-ui/icons/Work';

@@ -1,5 +1,5 @@
 
-export default{
+export default {
 
     userInfo:[
         {name:'Name', value:'Vinay sena reddy k'},

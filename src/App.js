@@ -3,9 +3,9 @@ import React from "react";
 import "./App.css";
 
 import Profile from "./components/Profile/Profile";
-import Header from "./components/Header/Header";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Portfolio from "./components/Portfolio/Portfolio";
+//import Header from "./components/Header/Header";
+//import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+//import Portfolio from "./components/Portfolio/Portfolio";
 import Resume from "./components/Resume/Resume";
 import About from './components/About/About';
 import data from './data';
