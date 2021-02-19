@@ -21,7 +21,7 @@ const Profile = ({data}) => {
       <CustomTimeline data={data.userInfo} title="" icon={<FaceIcon/>}/>
       <div className='btn_container'>
       <Button className='site_btn' style={{display:'none'}}> Download Resume </Button>
-      <a href='https://github.com/vinayasena' target='_blank' style={{display:'flex'}}>
+      <a href='https://github.com/vinayasena' target='_blank' rel="noreferrer"  style={{display:'flex'}}>
           <GitHubIcon style={{marginRight:'5px'}}/> (https://github.com/vinayasena)
       </a>
       </div>
