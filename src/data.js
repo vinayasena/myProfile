@@ -8,7 +8,7 @@ const data = {
         {name:'Phone', value:'+91 88 979 45236'},
         {name:'Location', value:'Hyderabad, India'}    
     ],
-    aboutme:['A motivated Front-End Web Developer to combine the art of design with the art of programming. Working along side with the UI/UX designers to bridge the gap between graphical design and technical implementation, taking an active role on both sides and defining how the application looks as well as how it works.','Please find the additional details about my skills and work experiences.','Check out my projects/portfolio below built with HTML5, CSS3, flexbox, css grid, Reactjs & Javascript'],
+    aboutme:['A motivated Front-End Web Developer to combine the art of design with the art of programming. Working along side with the UI/UX designers to bridge the gap between graphical design and technical implementation, taking an active role on both sides and defining how the application looks as well as how it works.','Please find the additional details about my skills and work experiences.','Check out my projects/portfolio below built with HTML5, CSS3, flexbox, css grid, Reactjs, NEXTJS & Javascript'],
 
     skills:[
         {name: 'Front-end', value:['HTML5', 'CSS3','Bootstrap', 'Material-UI','Javascript','JQuery','ReactJS','Redux', 'NextJS']},
