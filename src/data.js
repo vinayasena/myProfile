@@ -104,14 +104,6 @@ const data = {
             image:'/projectImages/heroku.png',
             link:'https://herokulike.netlify.app/'
 
-        },
-        {
-            name:'Microsoft Like Clone',
-            category:'HTML5 & CSS',
-            description:'A React js app to generator number of paragraphs like loreum ipusm text',
-            image:'/projectImages/msclone.png',
-            link:'https://mslike.netlify.app/'
-
         }
     ]
 
