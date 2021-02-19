@@ -86,7 +86,7 @@ const data = {
             category:'ReactJS',
             description:'A React js app to generator number of paragraphs like loreum ipusm text',
             image:'/projectImages/para.png',
-            link:'https://visual-color-generator.netlify.app/'
+            link:'https://paragenerator.netlify.app/'
 
         },
         {
@@ -102,7 +102,7 @@ const data = {
             category:'HTML5 & CSS',
             description:'A React js app to generator number of paragraphs like loreum ipusm text',
             image:'/projectImages/msclone.png',
-            link:'https://herokulike.netlify.app/'
+            link:'https://mslike.netlify.app/'
 
         }
     ]
