@@ -5,7 +5,7 @@ const data = {
         {name:'Name', value:'Vinay sena reddy k'},
         {name:'Designation', value:'Front-end UI Developer'},
         {name:'Email', value:'vsrkatta@gmail.com'},
-        {name:'Phone', value:'+91 88 979 45236'},
+        {name:'Phone', value:'+91 7981 20 5050'},
         {name:'Location', value:'Hyderabad, India'}    
     ],
     aboutme:['A motivated Front-End Web Developer to combine the art of design with the art of programming. Working along side with the UI/UX designers to bridge the gap between graphical design and technical implementation, taking an active role on both sides and defining how the application looks as well as how it works.','Please find the additional details about my skills and work experiences.','Check out my projects/portfolio below built with HTML5, CSS3, flexbox, css grid, Reactjs, NEXTJS & Javascript'],
